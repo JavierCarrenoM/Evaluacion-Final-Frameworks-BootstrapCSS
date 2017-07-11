@@ -1,0 +1,62 @@
+.container-fluid{
+  background-color: #E6E6E6;
+}
+.encabezado{
+  min-height: 10rem;
+  background: #000000;
+}
+.logo{
+  height: 130px;
+  margin-bottom: 10px;
+}
+.redes-sociales>button{
+  width: 50px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+nav{
+  background-color: #2E2E2E;
+}
+section{
+  margin-top: 30px;
+  color: #FFFFFF;
+  background-color: #2E2E2E;
+}
+.articulo-1{
+  float: right;
+  width: 350px;
+  margin: 10px;
+}
+.icono{
+  font-size: 55px;
+}
+.articulo-2{
+  float: left;
+  width: 350px;
+  margin: 10px;
+}
+.buscador{
+  padding-top: 7px;
+  text-align: center;
+}
+.input-group-addon{
+  color: #FFFFFF;
+  background-color: #2E2E2E;
+}
+.list-group{
+  color: #000000;
+}
+@media (max-width: 768px){
+  .redes-sociales>button{
+    width: 42px;
+    margin-top: 15px;
+  }
+  .icono{
+    font-size: 45px;
+  }
+}
+@media (max-width: 600px){
+  .icono{
+    font-size: 30px;
+  }
+}
